@@ -1,0 +1,3 @@
+A tool to formate float values to IEEE 754 standart.
+Works only with **float** type
+
