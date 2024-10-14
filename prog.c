@@ -68,7 +68,6 @@ void convert_to(double num, char *res){
 	find_exp(&num, exp);
 	num -= (int)num;
 	frac_to_bin(num, frac);
-	printf("%s\n", exp);
 	for (int i = 0; i < 8; i++){
 		res[i+1] = exp[i];
 	}
